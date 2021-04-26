@@ -9,9 +9,9 @@
 package ec2instanceconnectiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/ec2instanceconnect"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/ec2instanceconnect"
 )
 
 // EC2InstanceConnectAPI provides an interface to enable mocking the

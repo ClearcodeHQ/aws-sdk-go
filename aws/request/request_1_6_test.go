@@ -6,12 +6,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client/metadata"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/defaults"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
 )
 
 // go version 1.4 and 1.5 do not return an error. Version 1.5 will url encode

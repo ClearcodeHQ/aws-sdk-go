@@ -3,8 +3,8 @@ package protocol
 import (
 	"net/http"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
 )
 
 // UnmarshalErrorHandler provides unmarshaling errors API response errors for

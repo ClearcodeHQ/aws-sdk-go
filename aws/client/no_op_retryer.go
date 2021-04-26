@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
 )
 
 // NoOpRetryer provides a retryer that performs no retries.

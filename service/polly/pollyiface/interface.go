@@ -9,9 +9,9 @@
 package pollyiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/polly"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/polly"
 )
 
 // PollyAPI provides an interface to enable mocking the

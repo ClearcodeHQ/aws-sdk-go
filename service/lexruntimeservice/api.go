@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awsutil"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/signer/v4"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol"
 )
 
 const opDeleteSession = "DeleteSession"

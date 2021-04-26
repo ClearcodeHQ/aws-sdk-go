@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
 )
 
 // Options provide the configuration needed to direct how the

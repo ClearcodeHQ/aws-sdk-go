@@ -9,9 +9,9 @@
 package customerprofilesiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/customerprofiles"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/customerprofiles"
 )
 
 // CustomerProfilesAPI provides an interface to enable mocking the

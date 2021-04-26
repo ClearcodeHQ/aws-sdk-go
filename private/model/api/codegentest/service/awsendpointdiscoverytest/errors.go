@@ -3,7 +3,7 @@
 package awsendpointdiscoverytest
 
 import (
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol"
 )
 
 var exceptionFromCode = map[string]func(protocol.ResponseMetadata) error{}

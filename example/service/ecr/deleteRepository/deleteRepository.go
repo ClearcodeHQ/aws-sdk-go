@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/ecr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/session"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/ecr"
 )
 
 const DEFAULT_AWS_REGION = "us-east-1"

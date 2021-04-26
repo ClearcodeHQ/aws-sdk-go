@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aws/aws-sdk-go/private/model/api"
-	"github.com/aws/aws-sdk-go/private/util"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/model/api"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/util"
 )
 
 func usage() {

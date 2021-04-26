@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
 )
 
 func TestRetryThrottleStatusCodes(t *testing.T) {

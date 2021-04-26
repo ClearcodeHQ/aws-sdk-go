@@ -1,10 +1,10 @@
 package s3
 
 import (
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared/arn"
-	"github.com/aws/aws-sdk-go/internal/s3shared/s3err"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/internal/s3shared/arn"
+	"github.com/ClearcodeHQ/aws-sdk-go/internal/s3shared/s3err"
 )
 
 func init() {

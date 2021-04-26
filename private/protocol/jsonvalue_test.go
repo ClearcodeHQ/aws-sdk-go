@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
 )
 
 var testJSONValueCases = []struct {

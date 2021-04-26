@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/json/jsonutil"
 )
 
 // UnmarshalTypedError provides unmarshaling errors API response errors

@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aws/aws-sdk-go/private/model/api"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/model/api"
 )
 
 func main() {

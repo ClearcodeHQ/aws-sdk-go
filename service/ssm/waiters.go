@@ -5,8 +5,8 @@ package ssm
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
 )
 
 // WaitUntilCommandExecuted uses the Amazon SSM API operation

@@ -9,9 +9,9 @@
 package kinesisvideomediaiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/kinesisvideomedia"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/kinesisvideomedia"
 )
 
 // KinesisVideoMediaAPI provides an interface to enable mocking the

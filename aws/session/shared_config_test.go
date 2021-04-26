@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/internal/ini"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/credentials"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/endpoints"
+	"github.com/ClearcodeHQ/aws-sdk-go/internal/ini"
 )
 
 var (

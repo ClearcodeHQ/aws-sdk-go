@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
 )
 
 // StreamWriter provides concurrent safe writing to an event stream.

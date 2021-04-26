@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	v4 "github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client/metadata"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/corehandlers"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	v4 "github.com/ClearcodeHQ/aws-sdk-go/aws/signer/v4"
+	"github.com/ClearcodeHQ/aws-sdk-go/awstesting/unit"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 type connResetCloser struct {

@@ -332,11 +332,11 @@
 //   	"os"
 //   	"time"
 //
-//   	"github.com/aws/aws-sdk-go/aws"
-//   	"github.com/aws/aws-sdk-go/aws/awserr"
-//   	"github.com/aws/aws-sdk-go/aws/request"
-//   	"github.com/aws/aws-sdk-go/aws/session"
-//   	"github.com/aws/aws-sdk-go/service/s3"
+//   	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+//   	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+//   	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+//   	"github.com/ClearcodeHQ/aws-sdk-go/aws/session"
+//   	"github.com/ClearcodeHQ/aws-sdk-go/service/s3"
 //   )
 //
 //   // Uploads a file to S3 given a bucket and object key. Also takes a duration

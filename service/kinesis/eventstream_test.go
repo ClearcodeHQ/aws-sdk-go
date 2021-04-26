@@ -15,16 +15,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamapi"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/awserr"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/corehandlers"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/awstesting/unit"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/eventstream"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/eventstream/eventstreamapi"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
+	"github.com/ClearcodeHQ/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 var _ time.Time

@@ -1,10 +1,10 @@
 package awstesting
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/defaults"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/client/metadata"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/defaults"
 )
 
 // NewClient creates and initializes a generic service client for testing.

@@ -9,9 +9,9 @@
 package iot1clickprojectsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/iot1clickprojects"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws"
+	"github.com/ClearcodeHQ/aws-sdk-go/aws/request"
+	"github.com/ClearcodeHQ/aws-sdk-go/service/iot1clickprojects"
 )
 
 // IoT1ClickProjectsAPI provides an interface to enable mocking the
