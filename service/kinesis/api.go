@@ -2532,6 +2532,15 @@ func (c *Kinesis) PutRecords(input *PutRecordsInput) (*PutRecordsOutput, error) 
 	return out, req.Send()
 }
 
+// PutRecordsBuffered is same as PutRecords, except it accepts preallocated
+// memory buffey used to serialize requests. This helps to reduce the amount
+// of heap allocations.
+func (c *Kinesis) PutRecordsBuffered(input *PutRecordsInput, buf *bytes.Buffer) (*PutRecordsOutput, error) {
+	req, out := c.PutRecordsRequest(input)
+	req.Buffer = buf
+	return out, req.Send()
+}
+
 // PutRecordsWithContext is the same as PutRecords with the addition of
 // the ability to pass a context and additional request options.
 //

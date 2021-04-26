@@ -40,7 +40,7 @@ func Build(req *request.Request) {
 	var buf []byte
 	var err error
 	if req.ParamsFilled() {
-		buf, err = jsonutil.BuildJSON(req.Params)
+		buf, err = jsonutil.BuildJSONBuffered(req.Params, req.Buffer)
 		if err != nil {
 			req.Error = awserr.New(request.ErrCodeSerialization, "failed encoding JSON RPC request", err)
 			return

@@ -27,6 +27,19 @@ func BuildJSON(v interface{}) ([]byte, error) {
 	return buf.Bytes(), err
 }
 
+// BuildJSONBuffered builds a JSON string for a given object v,
+// putting the result into supplied buffer.
+func BuildJSONBuffered(v interface{}, buf *bytes.Buffer) ([]byte, error) {
+	if buf == nil {
+		return BuildJSON(v)
+	}
+
+	buf.Reset()
+
+	err := buildAny(reflect.ValueOf(v), buf, "")
+	return buf.Bytes(), err
+}
+
 func buildAny(value reflect.Value, buf *bytes.Buffer, tag reflect.StructTag) error {
 	origVal := value
 	value = reflect.Indirect(value)

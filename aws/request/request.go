@@ -83,6 +83,9 @@ type Request struct {
 	// Presign or PresignRequest methods.
 	ExpireTime time.Duration
 
+	// Buffer used to serialize request. Helps to reduce amount of heap allocation.
+	Buffer *bytes.Buffer
+
 	context aws.Context
 
 	built bool
